@@ -19,4 +19,5 @@ int main(){
     else{
         cout<<"not prime number";
     }
+    return 0;
 }
