@@ -14,11 +14,11 @@
 // explicit
 
 
-#include <iostream>
-using namespace std;
-int main(){
-    double roll=100.45;
-    int newroll=(int)roll;
-    cout<<newroll<<endl;
-    return 0;
-}
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     double roll=100.45;
+//     int newroll=(int)roll;
+//     cout<<newroll<<endl;
+//     return 0;
+// }
