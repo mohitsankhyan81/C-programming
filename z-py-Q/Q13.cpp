@@ -1,3 +1,4 @@
+// This is a C++ program to calculate the binomial coefficient, commonly known as "n choose r" or written mathematically as:
 #include <iostream>
 using namespace std;
 
