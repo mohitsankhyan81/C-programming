@@ -5,7 +5,7 @@ int main(){
     cout << age <<endl;
     char name='A';
     cout << name <<endl;
-    float number=1.12;
+    float number=1.121234211;
     cout<<number<<endl;
     bool name1=true;
     cout<<name1<<endl;
