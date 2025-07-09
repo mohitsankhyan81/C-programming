@@ -1,0 +1,8 @@
+//  xor of 2 no
+
+#include <iostream>
+using namespace std;
+int main(){
+    int a=4,b=8;
+    cout<<(a^b)<<endl;
+}
