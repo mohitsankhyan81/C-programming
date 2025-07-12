@@ -1,6 +1,6 @@
 //majority element
 //mories approch
-
+// leate code Question
 
 #include <iostream>
 #include <vector>
