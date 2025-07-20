@@ -21,7 +21,7 @@ public:
                     st = mid + 1;
                 }
             } else {
-                if (arr[mid] <= target && target <= arr[end]) {
+                if (arr[mid] <= target && target <= arr[end]) {//right half
                     st = mid + 1;
                 } else {
                     end = mid - 1;
