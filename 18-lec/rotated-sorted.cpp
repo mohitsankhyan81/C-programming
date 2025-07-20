@@ -1,3 +1,7 @@
+//solve the rotated shorted array
+//leetcode Qno 33
+
+
 #include <iostream>
 #include <vector>
 using namespace std;
