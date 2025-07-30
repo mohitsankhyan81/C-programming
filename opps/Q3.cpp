@@ -20,11 +20,6 @@ public:
         return num2;
     }
 
-    void printData() {
-        cout << "Number 1: " << num1 << endl;
-        cout << "Number 2: " << num2 << endl;
-    }
-
     int sum(int a, int b) {
         return a + b;
     }
@@ -33,9 +28,7 @@ public:
 int main() {
     Sum obj;
     obj.setData(10, 20);
-    obj.printData();
-    cout << "getA(): " << obj.getA() << endl;
-    cout << "getB(): " << obj.getB() << endl;
+
     cout << "Sum: " << obj.sum(obj.getA(), obj.getB()) << endl;
     return 0;
 }
