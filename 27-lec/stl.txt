@@ -1,0 +1,8 @@
+Staandard Template Liberary
+
+stl has four type 
+1 containers
+2 Iterators
+3 Algotithms
+4 functors
+
