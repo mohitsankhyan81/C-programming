@@ -9,6 +9,6 @@ int main(){
   for(int val : vec){
     cout << val<< endl;
   }
-
+  cout<<"is empty 1"<<vec.empty()<<endl;
   return 0;
 }
