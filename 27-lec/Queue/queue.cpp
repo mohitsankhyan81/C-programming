@@ -1,18 +1,20 @@
-#include <iostream>
-#include <vector>
-#include <list>
-#include <deque>
-#include <stack>
-using namespace std;
+// // queue stands for first in first out
 
-int main() {
-  stack<int>a;
-  a.push(1);
-  a.push(3);
-  a.push(5);
-  a.push(7);
-  a.push(9);
+// #include <iostream>
+// #include <vector>
+// #include <list>
+// #include <deque>
+// #include <stack>
+// #include <queue>
+// using namespace std;
 
-  cout<<a.top()<<endl;
-    return 0;
-}
+// int main() {
+//   queue<int>a;
+//   a.push(3);
+//   a.push(4);
+//   a.push(5);
+//   for(int val:a){
+//     cout<<val<<" ";
+//   }
+//     return 0;
+// }
