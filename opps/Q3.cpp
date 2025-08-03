@@ -1,34 +1,32 @@
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-class Sum {
-private:
-    int num1;
-    int num2;
+// class Sum {
+// private:
+//     int num1;
+//     int num2;
 
-public:
-    void setData(int a, int b) {
-        num1 = a;
-        num2 = b;
-    }
+// public:
+//     // Function to set values
+//     void setData(int a, int b) {
+//         num1 = a;
+//         num2 = b;
+//     }
 
-    int getA() {
-        return num1;
-    }
+//     // Function to return the sum of num1 and num2
+//     int sum() {
+//         return num1 + num2;
+//     }
+// };
 
-    int getB() {
-        return num2;
-    }
+// int main() {
+//     Sum obj;
 
-    int sum(int a, int b) {
-        return a + b;
-    }
-};
+//     // Set values for num1 and num2
+//     obj.setData(10, 20);
 
-int main() {
-    Sum obj;
-    obj.setData(10, 20);
+//     // Display the sum
+//     cout << "Sum: " << obj.sum() << endl;
 
-    cout << "Sum: " << obj.sum(obj.getA(), obj.getB()) << endl;
-    return 0;
-}
+//     return 0;
+// }
