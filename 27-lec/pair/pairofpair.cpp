@@ -5,9 +5,10 @@
 using namespace std;
 
 int main() {
-    pair<string, int> p = {"mohit", 1};
+    pair<int, pair<char, int>> p = {1, {'a', 3}};
     cout << p.first << endl;
-    cout << p.second << endl;
+    cout << p.second.first << endl;
+    cout << p.second.second << endl;
     cout << endl;
     return 0;
 }
