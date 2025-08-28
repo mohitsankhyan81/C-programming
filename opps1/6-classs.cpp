@@ -1,6 +1,6 @@
 #include <iostream>
+#include <string>
 using namespace std;
-
 class name{
   public:
     int x;
@@ -11,9 +11,10 @@ class name{
     }
 };
 
-int name::count=3;
+int name::count=0;
 
 int main(){
   name n1;
   cout<<name::count<<endl;
+  return 0;
 }
