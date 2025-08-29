@@ -1,12 +1,13 @@
 #include<iostream>
 using namespace std;
+class B;
 class A{
   int num;
   public:
     void setNum(int n){
       num=n;
       }
-    friend int sum(A,class B);
+    friend int sum(A,B);
 };
 class B{
     int num;
