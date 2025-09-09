@@ -33,8 +33,6 @@ void spiralmatix(int arr[100][100], int r,int c){
     }
 
   }
-
-
 }
 int main(){
   int r;
