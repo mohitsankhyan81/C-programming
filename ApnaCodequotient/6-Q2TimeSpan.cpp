@@ -6,7 +6,7 @@ using namespace std;
 // 1 70
 // 3 80
 
-class TimeSpan
+class TimeS pan
 {
   private:
     int hour;
