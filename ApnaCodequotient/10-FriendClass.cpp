@@ -20,7 +20,7 @@ class Account{
 void tds_cal(Account ac){
   float tds;
   tds=ac.amount/10;
-  cout<<"/n Tds of account no. "<<ac.acc_no<<" is Rs "<<tds;
+  cout<<"Tds of account no. "<<ac.acc_no<<" is Rs "<<tds;
 }
 
 int main(){
