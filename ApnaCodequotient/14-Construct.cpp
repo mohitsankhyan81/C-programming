@@ -6,7 +6,7 @@ class rectangle{
     int a;
     int b;
   public:
-    rectangle(int a1,int b1){
+    rectangle(int a1,int b1){//peramiterized constructor
       a=a1;
       b=b1;
     }
