@@ -1,3 +1,5 @@
+//protected inhartance
+
 #include <iostream>
 using namespace std;
 class bs{
