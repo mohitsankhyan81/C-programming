@@ -6,14 +6,14 @@ using namespace std;
 
 class shape{
   public:
-    virtual void area(){
+     void area(){
       cout<<"Calculate the area of shape.."<<endl;
     }
 };
 
 class Circle:public shape{
   public:
-  void area() override {
+  void area()  {
     cout<<"area of Cirle is Pi * r *r ..."<<endl;
   }
 };
@@ -21,7 +21,7 @@ class Circle:public shape{
 
 class Rectangle:public shape{
   public:
-    void area() override{
+    void area()  {
       cout<<"area of Rectangle: length + breadth"<<endl;
     }
 };
