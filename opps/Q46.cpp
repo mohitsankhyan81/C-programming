@@ -39,6 +39,6 @@ int main(){
   cout<<"ICFCI is "<<b->getrate()<<endl;
   SDFC sd;
   b=&sd;
-  ccout<<"ICFCI is "<<b->getrate()<<endl;
+  cout<<"ICFCI is "<<b->getrate()<<endl;
   return 0;
 }
