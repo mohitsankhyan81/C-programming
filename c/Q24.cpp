@@ -35,5 +35,5 @@ class Grade:public marks{
   public:
     void exes(){
       cout<<fixed<<setpercision(4)<<
-    }
+     }
 };
