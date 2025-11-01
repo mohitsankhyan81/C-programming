@@ -26,8 +26,8 @@ class student:public person{
   public:
   student(string name,int age,int studentID,int Class) : person(name,age) {
     this->studentID=studentID;
-    this->Class=Class;
-  }
+    this-> Class=Class;
+  } 
 
   void showinput() override{
     cout<<"Name is "<<name<<endl;
