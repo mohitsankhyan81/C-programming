@@ -17,6 +17,5 @@ int main(){
 
   sum <int> s1(3,6);
   cout<<"Sum of integer is"<<s1.add()<<endl;
-
   return 0;
 }
