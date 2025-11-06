@@ -24,7 +24,7 @@ class findmin{
       return min;
     }
 };
-int main(){
+int main(){ 
   int a1[]={67,45,67,45,2};
   int a2[]={34,56,45,56,2};
 
