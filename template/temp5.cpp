@@ -1,32 +1,39 @@
 #include <iostream>
 using namespace std;
+
 template <class t>
-class swap1{
+
+class swapnum{
+  t a,b;
+
   public:
-    t x1,x2;
-    
-    swap1(t x,t y){
-      x1=x;
-      x2=y;
+    swapnum(t a1,t b1){
+      a=a1;
+      b=b1;
     }
 
     void doswap(){
-      t temp=x1;
-      x1=x2;
-      x2=temp;
+      t temp=a;
+      a=b;
+      b=temp;
     }
 
     void display(){
-      cout<< x1 <<" "<<x2<<endl;
+      cout<<a<<" "<<b<<endl;
     }
-  };
+};
 int main(){
-  swap1<int> obj1(4,6);
-  obj1.display();
-  obj1.doswap();
-  obj1.display();
 
+  swapnum t1(3,5);
+  t1.display();
+  t1.doswap();
+  t1.display();
 
+  cout<<endl;
 
+  swapnum t2(3.4,5.3);
+  t2.display();
+  t2.doswap();
+  t2.display();
   return 0;
 }

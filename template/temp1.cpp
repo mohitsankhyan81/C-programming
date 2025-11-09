@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-template <class T>
-T add(T a,T b){
-  return a+b;
+template <typename t>
+void sum(t a,t b){
+  cout<<a+b<<endl;
 }
 int main(){
-  cout<<"Sum (int): "<<add(10,20)<<endl;
-  cout<<"sum (double): "<<add(10.5,10.3)<<endl;
-  return 0;
+  sum(1,3);
+  sum(1.2,3.4);
+  sum('a','b');
 }

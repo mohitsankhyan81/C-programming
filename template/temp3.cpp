@@ -2,28 +2,31 @@
 using namespace std;
 
 template <class t>
-class maxterm{
-  public:
-    t a1,b1;
-  
-    maxterm(t a,t b){
-      a1=a;
-      b1=b;
-    }
 
-    int display(){
-      if(a1>b1){
-        return a1;
+class maxNumber{
+  t a, b;
+
+  public:
+   maxNumber(t a1 ,t b1){
+       a=a1;
+       b=b1;
+    } 
+
+    t maxvalue(){
+      if(a>b){
+        return a;
       }
       else{
-        return b1;
+        return b;
       }
     }
 };
+
+
 int main(){
-  maxterm<int> obj1(35,23);
-  cout<<"the maxterm is "<<obj1.display()<<endl;
-  maxterm<float> obj2(45.2,12.5);
-  cout<<"the maxterm is "<<obj2.display()<<endl;
+  maxNumber m1(34,56);
+  cout<<"Max value: "<<m1.maxvalue()<<endl;
+  maxNumber m2(3.5,5.4);
+  cout<<"max value:"<<m2.maxvalue()<<endl;
   return 0;
 }
