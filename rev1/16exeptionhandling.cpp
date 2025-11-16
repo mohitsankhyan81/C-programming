@@ -25,7 +25,7 @@ int main(){
     cout<<"caught exception: "<<e.what()<<endl;
   }
   catch(...){
-    cout<<"Caught an unknown exception. "<<endl;
+    cout<<"Caught an unknown exception. "<< endl;
   }
   return 0;
 
