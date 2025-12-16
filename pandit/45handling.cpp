@@ -13,7 +13,7 @@ int main(){
   }
   catch(string s){
     cout<<"Outer catch: Caught string "<<s<<endl;
-  }
+   }
   
 
   return 0;
