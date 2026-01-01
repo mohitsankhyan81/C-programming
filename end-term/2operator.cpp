@@ -14,7 +14,7 @@ class number{
     }
 
     bool operator>(number c){
-      return (x+c.x,y+c.y);
+      return (x+c.x ,y+c.y);
     }
 };
 int main(){
