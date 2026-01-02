@@ -22,7 +22,7 @@ class swaptwo{
 };
 
 int main(){
-  swaptwo<int>s1(23,46);
+  swaptwo<int> s1(23,46);
   s1.display();
   s1.swapnum();
   s1.display();
