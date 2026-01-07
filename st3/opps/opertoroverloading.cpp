@@ -5,10 +5,10 @@ class Number{
   private:
     int a,b;
   public:
-    // Number(){
-    //   a=0;
-    //   b=0;
-    // }
+    Number(){
+      a=0;
+      b=0;
+    }
 
     Number(int a,int b){
       this->a=a;
