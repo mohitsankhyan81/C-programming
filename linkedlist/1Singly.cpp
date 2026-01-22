@@ -13,23 +13,23 @@ Node* createNode(int val){
   return n;
 }
 
-void insertintoHead(Node*& Head,int val){
+void insertintoHead(Node*& head,int val){
   Node* n=createNode(val);
-  n->next=Head;
-  Head=n;
+  n->next=head;
+  head=n;
 }
 
-void display(Node* Head){
-  while(Head!=NULL){
-    cout<<Head->data<<" -> ";
-    Head=Head->next;
+void display(Node* head){
+  while(head!=NULL){
+    cout<<head->data<<" -> ";
+    head=head->next;
   }
   cout<<"NULL";
 }
 int main(){
-  Node* Head=NULL;
-  insertintoHead(Head,34);
-  insertintoHead(Head,45);
-  display(Head);
+  Node* head=NULL;
+  insertintoHead(head,34);
+  insertintoHead(head,54);
+  display(head);
   return 0;
 }
