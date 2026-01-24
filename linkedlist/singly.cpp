@@ -13,13 +13,13 @@ Node* createNode(int val){
   return n;
 }
 
-void insertintoHead(Node* &Head,int val){
+void insertintoHead(Node*& Head,int val){
   Node* n=createNode(val);
   n->next=Head;
   Head=n;
 }
 
-void insertintoEnd(Node* &Head,int val){
+void insertintoEnd(Node*& Head,int val){
   Node* n=createNode(val);
 
   if(Head==NULL){
@@ -34,6 +34,16 @@ void insertintoEnd(Node* &Head,int val){
   temp->next=n;
 }
 
+void deleteAtHead(Node* &Head){
+  if(Head==NULL){
+    return;
+  }
+
+  Node* temp=Head;
+  Head=Head->next;
+  delete temp;
+}
+
 void display(Node* Head){
   while(Head!=NULL){
     cout<<Head->data<<" -> ";
@@ -45,9 +55,11 @@ void display(Node* Head){
 int main(){
   Node* Head=NULL;
   insertintoHead(Head,45);
-  insertintoHead(Head,46);
-  insertintoEnd(Head,57);
-  insertintoEnd(Head,78);
+  insertintoHead(Head,57);
+  insertintoEnd(Head,76);
+  insertintoEnd(Head,56);
+  deleteAtHead(Head);
+  deleteAtHead(Head);
   display(Head);
   return 0;
 }
