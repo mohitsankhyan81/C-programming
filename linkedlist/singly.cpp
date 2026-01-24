@@ -26,7 +26,6 @@ void insertintoEnd(Node*& Head,int val){
     Head=n;
     return;
   }
-
   Node* temp=Head;
   while(temp->next!=NULL){
     temp=temp->next;
@@ -34,32 +33,44 @@ void insertintoEnd(Node*& Head,int val){
   temp->next=n;
 }
 
-void deleteAtHead(Node* &Head){
+void deleteatHead(Node*& Head){
   if(Head==NULL){
-    return;
+    return ;
   }
-
   Node* temp=Head;
   Head=Head->next;
   delete temp;
 }
+
+Node* reverse(Node* Head){
+  Node* prev=NULL;
+  Node* curr=Head;
+  Node* next;
+
+  while(curr!=NULL){
+    next=curr->next;
+    curr->next=prev;
+    prev=curr;
+    curr=next;
+  }
+  return prev;
+}
+
 
 void display(Node* Head){
   while(Head!=NULL){
     cout<<Head->data<<" -> ";
     Head=Head->next;
   }
-  cout<<"NULL";
+  cout<<"NULL"<<endl;
 }
 
 int main(){
   Node* Head=NULL;
   insertintoHead(Head,45);
-  insertintoHead(Head,57);
   insertintoEnd(Head,76);
-  insertintoEnd(Head,56);
-  deleteAtHead(Head);
-  deleteAtHead(Head);
+  display(Head);
+  Head=reverse(Head);
   display(Head);
   return 0;
 }
