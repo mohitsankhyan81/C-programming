@@ -33,7 +33,7 @@ void insertintoEnd(Node*& Head,int val){
   temp->next=n;
 }
 
-void deleteintoHead(Node* &Head){
+void deletefromtheHead(Node* &Head){
   if(Head==NULL){
     return;
   }
@@ -57,7 +57,7 @@ int main(){
   insertintoHead(Head,67);
   insertintoEnd(Head,12);
   insertintoEnd(Head,65);
-  deleteintoHead(Head);
+  deletefromtheHead(Head);
   display(Head);
   return 0;
 }
