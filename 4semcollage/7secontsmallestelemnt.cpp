@@ -2,7 +2,7 @@
 using namespace std;
 
 void insertionsort(int arr[],int n){
-    int min=INT_MAX;
+  int min=INT_MAX;
   int secmin=INT_MAX;
 
   for(int i=1;i<n;i++){
