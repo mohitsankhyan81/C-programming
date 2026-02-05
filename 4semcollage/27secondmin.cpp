@@ -17,7 +17,7 @@ int SecondMax(int arr[],int n){
     }
     return secmin;
 }
-
+   
 int main(){
     int arr[]={45,56,34,23,66};
     int n=sizeof(arr)/sizeof(int);
