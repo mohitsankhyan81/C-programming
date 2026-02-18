@@ -18,11 +18,6 @@ int main(){
                     isscalar=false;
                 }
             }
-            else{
-                if(arr[i][j] != 0){
-                    isscalar=false;
-                }
-            }
         }
     }
 
