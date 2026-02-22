@@ -12,7 +12,7 @@ int SecondMax(int arr[],int n){
             max=arr[i];
         }
         else if(arr[i]>secmax&& arr[i]!=max){
-             secmax=arr[i];
+              secmax=arr[i];
         }
     }
     return secmax;
