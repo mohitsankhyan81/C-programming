@@ -1,8 +1,3 @@
-#include <iostream>
-#include <string>
-using namespace std;
-int main(){
-    string s="a2c2b2n2b3c5";
     string digit;
     for(int i=1;i<s.size();i+=2){
         digit.push_back(s[i]);
@@ -22,5 +17,3 @@ int main(){
     cout<<data<<endl;
     cout<<digit<<endl;
     cout<<res;
-    return 0;
-}
