@@ -11,7 +11,7 @@ class Node{
         next=NULL;
     }
 
-     static void insertintoHead(Node*& Head,int val){
+      static void insertintoHead(Node*& Head,int val){
         Node* newNode=new Node(val);
         if(Head==NULL){
             Head=newNode;
