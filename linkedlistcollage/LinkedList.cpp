@@ -87,7 +87,7 @@ class Node{
             return;
         }
         if(pos==1){
-            deleteathead(Head);
+             deleteathead(Head);
             return;
         }
         Node* temp=Head;
