@@ -14,7 +14,7 @@ int main(){
     while(s1[i]!='\0'){
         if(s1[i]!=s2[i]){
             flag=false;
-            break;
+             break;
         }
         i++;
     }
