@@ -11,7 +11,7 @@ int main(){
         if(s1[i]!=' '&& (i==0 || s1[i-1]==' ')){
             count++;
         }
-    }
+     }
     cout<<count<<endl;
     return 0;
 }
